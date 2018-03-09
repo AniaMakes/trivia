@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Test with node.js =====================",
+  "main": "game.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "seedrandom": "^2.4.3"
+  },
+  "scripts": {
+    "test": "jasmine game.spec.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

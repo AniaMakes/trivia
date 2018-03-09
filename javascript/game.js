@@ -1,4 +1,6 @@
 exports = typeof window !== "undefined" && window !== null ? window : global;
+var seedrandom = require("seedrandom");
+Math.seedrandom('WomensDay');
 
 exports.Game = function() {
   var players          = new Array();
